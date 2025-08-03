@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: grey;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 2px solid red ;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+  margin : 35px;
+}
+
+table {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 0.1px solid black;
+}
+
+td {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-style: initial;
+}
+
+th {
+  text-align: center;
+  background-color: grey;
+  color: rebeccapurple;
+}
+
+form {
+    width: 500px;
+}
+
+input   {
+  padding: 10px;
+  width: 70%;
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: grey;
+  color: white;
+}
